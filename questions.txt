@@ -1,66 +1,66 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+Open main1.py. Before running it, what do you expect this program to do? Say greetings and ask my favorite color
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. i pressed enter and it gave me the directory of the program
 
-What do you think the program did with what you typed?
-
-
-
-Open main2.py. Before running it, describe how this is different than main1.py. 
-
-What do you think the color = input() will do? 
-
-Run the program in the terminal and answer the question. Did the program do what you expected?
+What do you think the program did with what you typed? just got rid of it
 
 
 
-Open main3.py. Before running it, describe how this is different than main2.py. 
+Open main2.py. Before running it, describe how this is different than main1.py. its going to print out whatever my input is
 
-What is happening on lines 11–14? 
+What do you think the color = input() will do? sets the varaible color to whatever i input
 
-Why are lines 12 and 14 indented? 
-
-Run the program and answer the question. What happens if you don’t capitalize Red? 
-
-What does this tell you about "color"?
+Run the program in the terminal and answer the question. Did the program do what you expected? yup
 
 
 
-Open main4.py. Before running it, describe how this is different than main2.py. 
+Open main3.py. Before running it, describe how this is different than main2.py. it has a condition for the input being exactly equal to "Red"
 
-What problem is this trying to solve? 
+What is happening on lines 11–14? if statement for if the input is "Red" 
 
-Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+Why are lines 12 and 14 indented? They only happen if the statement is true
 
+Run the program and answer the question. What happens if you don’t capitalize Red? if you dont capitalize "Red" then it wont recognize it as the correct answer. 
 
-
-Open main5.py. What do you expect line 11 to do? 
-
-What problem is it trying to solve? 
-
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+What does this tell you about "color"? that variables are case sensitive
 
 
 
-Open main6.py. How is line 11 different than main5.py? 
+Open main4.py. Before running it, describe how this is different than main2.py. It is similar to main3.py, except it allows "red" or "Red" 
 
-What would you guess .strip() is doing? 
+What problem is this trying to solve? allowing both "red" and "Red"
 
-Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? it wont work
 
 
 
-Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+Open main5.py. What do you expect line 11 to do? not check for case sensitive
 
-What is the purpose of line 11? 
+What problem is it trying to solve? case sensitivity 
+
+Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)? it wont work with spaces, but will work with different capitalizations
+
+
+
+Open main6.py. How is line 11 different than main5.py? it has a "strip" function that probably gets rid of spaces?
+
+What would you guess .strip() is doing?  getting rid of spaces
+
+Run the program and answer the question. Is there another way of writing “red” that will break this logic? doing something like #red will, of course break it. 
+
+
+
+Open main7.py. Before running this program, how do you expect this to be different than main6.py? it allows a different answer of "pink" to give a new answer
+
+What is the purpose of line 11? it is automatically stripping the varaible before printing it
 
 Run the program and answer the question.
 
 
 
-Open main8.py. What is the purpose of line 11? 
+Open main8.py. What is the purpose of line 11? it's fires everything under it as long as the answer is not red
 
-Why are lines 12–19 indented? 
+Why are lines 12–19 indented? they only happen when the while statement is true
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
 
