@@ -58,7 +58,7 @@ Run the program and answer the question.
 
 
 
-Open main8.py. What is the purpose of line 11? it's fires everything under it as long as the answer is not red
+Open main8.py. What is the purpose of line 11? it's runs everything under it as long as the answer is not red
 
 Why are lines 12–19 indented? they only happen when the while statement is true
 
@@ -68,11 +68,11 @@ Make that change and run the program again. To end any Python program, you can t
 
 
 
-Open main9.py. What is happening on line 12? 
+Open main9.py. What is happening on line 12? it loops until color == red
 
-What is the purpose of “count”? 
+What is the purpose of “count”? count is a variable that keeps count of how many guesses have been made. 
 
-What is happening on line 22? 
+What is happening on line 22? the program is printing the variable count and formatting it
 
 Run the program.
 
@@ -81,4 +81,4 @@ Run the program.
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? nope
